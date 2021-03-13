@@ -1,0 +1,51 @@
+.container__hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 50px 58px;
+}
+
+.hero__list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 19px;
+}
+
+.hero__item {
+    font-size: 206px;
+    font-weight: bold;
+    font-family: "Montserrat";
+    color: #2d2d2d;
+    text-transform: uppercase;   
+    line-height: 210px;
+}
+
+.hero__item--people:hover {
+    background:url(../../images/content/hero/people.jpg)no-repeat center/cover;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;    
+    cursor:pointer;
+}
+
+.hero__item--landscape:hover {
+    background:url(../../images/content/hero/landscape.jpg)no-repeat center -430px /cover;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;    
+    cursor:pointer;
+}
+
+.hero__item--cities:hover {
+    background:url(../../images/content/hero/cities.jpg)no-repeat center /cover;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;    
+    cursor:pointer;
+}
+
+.hero__item--various:hover {
+    background:url(../../images/content/hero/various.jpg)no-repeat center /cover;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;    
+    cursor:pointer;
+}
