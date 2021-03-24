@@ -46,7 +46,7 @@
                     </div>
                 </header>
                 <div class="container container__landscape">
-                    <ul class="landscape__photos">
+                    <ul class="landscape__photos slider">
                         <li class="landscape__photo"><img src="./images/content/portfolio/landscape/high-mountains.jpg" alt="high mountains" class="landscape__img"></li>
                         <li class="landscape__photo"><img src="./images/content/portfolio/landscape/stream-snow.jpg" alt="stream snow" class="landscape__img"></li>
                         <li class="landscape__photo"><img src="./images/content/portfolio/landscape/rising-mountains.jpg" alt="rising mountains" class="landscape__img"></li>
@@ -54,16 +54,32 @@
                         <li class="landscape__photo"><img src="./images/content/portfolio/landscape/water-and-mountains.jpg" alt="water and mountains" class="landscape__img"></li>
                         <li class="landscape__photo"><img src="./images/content/portfolio/landscape/alone-tree.jpg" alt="alone tree" class="landscape__img"></li>                        
                     </ul>                    
+                    <ul class="landscape__photos slider">
+                        <li class="landscape__photo"><img src="./images/content/portfolio/landscape/alone-tree.jpg" alt="alone tree" class="landscape__img"></li>                        
+                        <li class="landscape__photo"><img src="./images/content/portfolio/landscape/water-and-mountains.jpg" alt="water and mountains" class="landscape__img"></li>
+                        <li class="landscape__photo"><img src="./images/content/portfolio/landscape/stream-wood.jpg" alt="stream wood" class="landscape__img"></li>
+                        <li class="landscape__photo"><img src="./images/content/portfolio/landscape/high-mountains.jpg" alt="high mountains" class="landscape__img"></li>
+                        <li class="landscape__photo"><img src="./images/content/portfolio/landscape/stream-snow.jpg" alt="stream snow" class="landscape__img"></li>
+                        <li class="landscape__photo"><img src="./images/content/portfolio/landscape/rising-mountains.jpg" alt="rising mountains" class="landscape__img"></li>
+                    </ul>                    
+                    <ul class="landscape__photos slider">
+                        <li class="landscape__photo"><img src="./images/content/portfolio/landscape/high-mountains.jpg" alt="high mountains" class="landscape__img"></li>
+                        <li class="landscape__photo"><img src="./images/content/portfolio/landscape/stream-snow.jpg" alt="stream snow" class="landscape__img"></li>
+                        <li class="landscape__photo"><img src="./images/content/portfolio/landscape/stream-wood.jpg" alt="stream wood" class="landscape__img"></li>
+                        <li class="landscape__photo"><img src="./images/content/portfolio/landscape/water-and-mountains.jpg" alt="water and mountains" class="landscape__img"></li>
+                        <li class="landscape__photo"><img src="./images/content/portfolio/landscape/rising-mountains.jpg" alt="rising mountains" class="landscape__img"></li>
+                        <li class="landscape__photo"><img src="./images/content/portfolio/landscape/alone-tree.jpg" alt="alone tree" class="landscape__img"></li>                        
+                    </ul>                    
                     <div class="pagination">
                         <ul class="pagination__list">
-                            <li class="pagination__item">
-                                <a href="" class="pagination__link"></a>
+                            <li class="pagination__item pagination__item--active" onclick="currentSlide(1)"> 
+                                <a href="#" class="pagination__link"></a>
                             </li>
-                            <li class="pagination__item pagination__item--active">
-                                <a href="" class="pagination__link"></a>
+                            <li class="pagination__item" onclick="currentSlide(2)">
+                                <a href="#" class="pagination__link"></a>
                             </li>
-                            <li class="pagination__item">
-                                <a href="" class="pagination__link"></a>
+                            <li class="pagination__item" onclick="currentSlide(3)">
+                                <a href="#" class="pagination__link"></a>
                             </li>
                         </ul>
                     </div>
@@ -71,4 +87,5 @@
             </section>
         </div>
     </div>
+    <script src="app.js"></script>
 </body>

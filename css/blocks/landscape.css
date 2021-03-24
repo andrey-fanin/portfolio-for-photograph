@@ -45,6 +45,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 30px;
+    animation: fade 1s ease-in-out;
 }
 
 .landscape__photo {
@@ -65,4 +66,3 @@
 .landscape__img {
     border-radius: 30px;
 }
-
